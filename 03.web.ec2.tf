@@ -15,6 +15,3 @@ resource "aws_instance" "web" {
 
   user_data = "${file("./no_keypair.sh")}"
 }
-
-
-# subnet_id              = module.app_vpc.public_subnets[count.index % length(module.app_vpc.public_subnets)]  #모듈려 연산자 활용
