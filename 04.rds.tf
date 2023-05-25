@@ -13,11 +13,11 @@
 #   engine_version       = "8.0.28"
 #   db_subnet_group_name = aws_db_subnet_group.rdsSubnet.name
 #   availability_zone    = var.zone # ap-northeast-2a
-#   instance_class       = "db.m5.large"
+#   instance_class       = "db.t3.small"
 
 #   identifier           = "mysql" # rds name
 #   username             = var.rdsID # rds account name
-#   password             = var.rdsPW # 8 char ↑
+#   password             = var.rdsPW # 8 char more
 
 #   #vpc_security_group_ids = ""
 #   parameter_group_name = "default.mysql8.0"
